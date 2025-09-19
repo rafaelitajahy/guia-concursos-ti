@@ -1,0 +1,26 @@
+version: "3.9"
+
+services:
+  db:
+    image: mysql:8.0.42   # versão fixa para evitar upgrades automáticos
+    container_name: mysql_test
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass   # senha do usuário root
+      MYSQL_DATABASE: testdb          # banco inicial
+      MYSQL_USER: testuser            # usuário extra
+      MYSQL_PASSWORD: testpass        # senha do usuário extra
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+  adminer:
+    image: adminer:latest
+    container_name: adminer_test
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+
+volumes:
+  mysql_data:

@@ -14,14 +14,14 @@ Este é um projeto de estudo contínuo e servirá como meu principal acervo de c
 O conteúdo está organizado em pastas, seguindo as principais áreas de conhecimento cobradas nos editais. Cada pasta principal contém um `README.md` com um resumo dos tópicos abordados e subpastas para diferentes tipos de material.
 
 A estrutura foi pensada da seguinte forma:
-
+```
 ti-concursos/
 ├── 01-bancos-de-dados/
 │   ├── mysql
 │   ├── ...
 │   └── README.md
 ├── 02-...
-
+```
 ## 🚀 Como Utilizar
 
 1.  **Navegue pelas pastas:** Cada pasta principal corresponde a uma grande área de TI.

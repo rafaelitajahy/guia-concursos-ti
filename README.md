@@ -28,9 +28,11 @@ ti-concursos/
 2.  **Comece pelo `README.md`:** Dentro de cada pasta, o `README.md` serve como um índice para os tópicos daquela área.
 3.  **Explore o conteúdo:** Acesse as subpastas para encontrar resumos, códigos, mapas mentais e outros materiais.
 
+
 Você pode clonar este repositório para ter acesso localmente:
 ```bash
 git clone https://github.com/rafaelitajahy/guia-concursos-ti.git
+```
 
 ⚖️ Licença
 Este projeto é distribuído sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.

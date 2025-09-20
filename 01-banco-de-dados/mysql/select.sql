@@ -8,7 +8,9 @@ SELECT * FROM estabelecimentos WHERE cidade = 'São Paulo';
 SELECT * FROM estabelecimentos WHERE tipo = 'Transportadora';
 
 --Listar estabelecimentos por faturamento mensal
-SELECT * FROM estabelecimentos WHERE faturamento_mensal >= 500000.00;
+--Pode usar o valor DECIMAL(500000.00) ou INTEIRO(500000) 
+--Foi cobrado na prova SEFAZ PI 2025 - FCC 
+SELECT * FROM estabelecimentos WHERE faturamento_mensal >= 500000;
 
 --Listar estabelecimentos por cidade e tipo
 SELECT * FROM estabelecimentos WHERE cidade = 'São Paulo' AND tipo = 'Transportadora';      
